@@ -1,0 +1,9 @@
+public class new20260916 {
+    public static void main(String [] args) {
+        int grade = 3;
+        System.out.print(grade+"학년"+"홍길동");
+        System.out.print(grade+"학년"+"이몽룡");
+        System.out.print(grade+"학년"+"성춘향");
+        System.out.print(grade+"학년"+"변학도");
+    }
+}

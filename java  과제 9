@@ -1,0 +1,25 @@
+public class new20260916 {
+
+    static double PI = 3.141592; 
+
+    public static void main(String[] args) {
+        
+        int r = 15;
+        double circumference = 2 * r * PI;
+        
+        System.out.println("반지름 " + r + "cm인 원의 둘레는 " + circumference + " cm");
+        
+        System.out.println("반지름 2진수: " + Integer.toBinaryString(r));
+        System.out.printf("반지름 8진수: %o\n", r);
+        System.out.printf("반지름 16진수: %x\n", r);
+
+        System.out.println();
+
+        double rd = 15.3;
+        double area = rd * rd * PI;
+        
+        System.out.println("원주율 " + PI + ", 반지름 " + rd + "cm인 원의 면적은 " + area + " cmcm");
+        
+        System.out.printf("원면적 지수형 인쇄: %e\n", area);
+    }
+}

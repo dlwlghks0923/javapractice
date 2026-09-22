@@ -1,0 +1,9 @@
+public class new20260916 {
+    public static void main(String [] args) {
+        System.out.println("이지환" + "-" + "20231119" + "-" + "변수");
+        
+       int grade = 0; 
+        
+        System.out.println("메소드내 로컬 변수는 초기화가 되지 않으면 에러 발생!!");
+    }
+}
